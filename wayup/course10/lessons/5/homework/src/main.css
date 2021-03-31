@@ -245,7 +245,9 @@ h2 {
 	.container {
 		width: 90%;
 	}
-
+  .item {
+    width: auto;
+  }
   .section-form .input, .section-form .button {
     width: 95%;
   }
