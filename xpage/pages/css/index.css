@@ -1,0 +1,56 @@
+body, h1, ul, li {
+    --dark-red: #9f0023;
+    --dark-grey: #373334;
+    --light-grey: #959595;
+    margin: 0;
+    padding: 0;
+    color: var(--dark-grey);
+    font-family: 'Frank Bold', sans-serif;
+    background: #f2f2f2;
+    font-weight: 900;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 0.25fr 1fr 1fr;
+}
+
+.menu__logo {
+    padding-top: 1em;
+    height: 64px;
+}
+
+.menu__title {
+    color: var(--light-grey);
+    font-size: 48px;
+}
+
+.menu__pages {
+    display: grid;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.menu_pages__item {
+    display: inline;
+    font-size: 36px;
+    transition: 0.5s ease-in-out;
+}
+
+.menu_pages__item:hover {
+    color: var(--dark-red);
+}
