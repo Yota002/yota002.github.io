@@ -100,28 +100,28 @@ body {
 
 .card__like {
   position: absolute;
-  content: url("./icons/like.svg");
+  content: url("../icons/like.svg");
   -webkit-transform: translate(188px, -168px);
       -ms-transform: translate(188px, -168px);
           transform: translate(188px, -168px);
 }
 
 .card__compare {
-  content: url("./icons/compare.svg");
+  content: url("../icons/compare.svg");
   -webkit-transform: translate(188px, -204px);
       -ms-transform: translate(188px, -204px);
           transform: translate(188px, -204px);
 }
 
 .card__delivery {
-  content: url("./icons/delivery.svg");
+  content: url("../icons/delivery.svg");
   -webkit-transform: translate(156px, -108px);
       -ms-transform: translate(156px, -108px);
           transform: translate(156px, -108px);
 }
 
 .card__deal {
-  content: url("./icons/deal.svg");
+  content: url("../icons/deal.svg");
   -webkit-transform: translate(188px, -108px);
       -ms-transform: translate(188px, -108px);
           transform: translate(188px, -108px);
@@ -144,7 +144,7 @@ body {
 .card__carousel {
   position: relative;
   display: inline;
-  content: url("./icons/ellipse.svg");
+  content: url("../icons/ellipse.svg");
 }
 
 [seen="true"] {
@@ -199,7 +199,7 @@ body {
 
 .showmore::after {
   position: absolute;
-  content: url("/icons/arrow.svg");
+  content: url("../icons/arrow.svg");
   -webkit-transform: translate(5px, 2px);
       -ms-transform: translate(5px, 2px);
           transform: translate(5px, 2px);

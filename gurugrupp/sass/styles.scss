@@ -90,21 +90,21 @@ body {
 
     &__like {
         position: absolute;
-        content: url("./icons/like.svg");
+        content: url("../icons/like.svg");
         transform: translate(188px, -168px);
     }
     &__compare {
-        content: url("./icons/compare.svg");
+        content: url("../icons/compare.svg");
         transform: translate(188px, -204px);
     }
 
     &__delivery {
-        content: url("./icons/delivery.svg");
+        content: url("../icons/delivery.svg");
         transform: translate(156px, -108px);
     }
 
     &__deal {
-        content: url("./icons/deal.svg");
+        content: url("../icons/deal.svg");
         transform: translate(188px, -108px);
     }
 
@@ -119,7 +119,7 @@ body {
     &__carousel {
         position: relative;
         display: inline;
-        content: url("./icons/ellipse.svg");
+        content: url("../icons/ellipse.svg");
     }
 }
 
@@ -167,6 +167,6 @@ body {
 
 .showmore::after {
     position: absolute;
-    content: url("/icons/arrow.svg");
+    content: url("../icons/arrow.svg");
     transform: translate(5px, 2px);
 }
