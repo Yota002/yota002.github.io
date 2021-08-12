@@ -7,7 +7,7 @@ switch (lang) {
         break;
     default:
         // file.open("GET", "../pages/en.html", true);
-        file.open("GET", "/portfolio/pages/ru.html", true);
+        file.open("GET", "/portfolio/pages/en.html", true);
         break;
 }
 file.onload = function () {
