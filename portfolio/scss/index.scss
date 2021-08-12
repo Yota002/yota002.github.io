@@ -56,7 +56,6 @@ body {
 }
 
 .main {
-    // position: relative;
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
@@ -87,7 +86,7 @@ body {
     }
 
     &__link {
-        display: flex;
+        display: inline-flex;
         align-items: center;
         color: $accent_color_light;
         text-decoration: none;
