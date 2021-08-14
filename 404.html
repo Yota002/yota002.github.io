@@ -2,16 +2,67 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/404.css">
     <title>Page not found</title>
+    <style>
+        body {
+            background-color: #f1f1f1;
+            margin: 0;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .container {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin: 50px auto 40px auto;
+            text-align: center;
+        }
+
+        a {
+            color: #4183c4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            line-height: 60px;
+            font-size: 60px;
+            font-weight: 100;
+            text-shadow: 0 1px 0 #fff;
+        }
+
+        p {
+            color: rgba(0, 0, 0, 0.5);
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+
+        .cat {
+            -o-object-fit: cover;
+            object-fit: cover;
+            width: 50rem;
+            height: 30rem;
+            border-radius: 20px;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
         <h1>404</h1>
-        <p><strong>Nothing was found</strong><br>Seems like someone had stolen your page.<br>Don't be upset, look at the cat or go to the <a
-                href="./index.html">main page</a>.</p>
-        <img class="cat" src="images/404.jpg" alt="Cat">
+        <p><strong>Nothing was found</strong><br>Seems like someone had stolen your page.<br>Don't be upset, look at the
+            cat or go to the <a href="https://imyota.xyz/">main page</a>.</p>
+        <img class="cat" src="https://i.imgur.com/56sVPyW.jpeg" alt="Cat">
     </div>
 </body>
 
