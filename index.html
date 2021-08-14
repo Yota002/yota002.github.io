@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html id="html">
+
 <body>
-    <script src="./js/lang.js"></script>
+    <script>
+        let lang = navigator.language.split("-")[0];
+        switch (lang) {
+            case "ru":
+                window.location.href = "/pages/ru.html"
+                break;
+            default:
+                window.location.href = "/pages/en.html"
+                break;
+        }
+    </script>
 </body>
+
 </html>
