@@ -1,7 +1,59 @@
 ---
 import Layout from "../layouts/Layout.astro";
+
+const contacts = [
+  { label: "GitHub", href: "https://github.com/Yota002" },
+  { label: "Telegram", href: "https://t.me/yota404" },
+  { label: "luzan.k.work@gmail.com", href: "mailto:luzan.k.work@gmail.com" },
+];
+
+const tech = ["Angular", "TypeScript", "SCSS", "HTML", "PrimeNG"];
 ---
 
 <Layout title="Главная">
-  <main>Hello world</main>
+  <main class="max-w max-w-2xl mx-4 my-2">
+    <h1 class="font-bold text-3xl">Кирилл Лузан</h1>
+    <h2 class="font-semibold text-2xl">Frontend-разработчик</h2>
+    <p>
+      Всем привет! Я Кирилл, фронтенд-разработчик на Angular. С детства мечтал
+      стать программистом, начал заниматься разработкой в 2018 году, начал
+      активно изучать фронтенд-разработку в 2021. Люблю пробовать новые
+      технологии, библиотеки и фреймворки.
+    </p>
+    <h3 class="text-lg font-semibold">Основной стек технологий</h3>
+    <ul class="tech flex gap-3">
+      {tech.map((e) => <li>{e}</li>)}
+    </ul>
+    <h3 class="text-lg font-semibold">Связь со мной</h3>
+    <ul>
+      {
+        contacts.map((e) => (
+          <li>
+            <a
+              class="text-blue-600 hover:text-blue-300 transition-colors"
+              href={e.href}
+            >
+              {e.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
 </Layout>
+<style type="scss">
+  .tech li:not(:first-of-type) {
+    position: relative;
+    padding-left: calc(0.75rem + 1px);
+    &::before {
+      content: "";
+      position: absolute;
+      height: 75%;
+      width: 1px;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #ccc;
+    }
+  }
+</style>
