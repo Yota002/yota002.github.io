@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/yota002
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://yota.shitdevs.ru
+  * I am yota002 (https://keybase.io/yota002) on keybase.
+  * I have a public key with fingerprint E96F 993F 349A 96B2 B689  C929 97C7 56FD BE8A B2C1
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01016bcf9fb9f73fc2840f6946042e18ef426b0e2cb83ad506a22efc8b35bfab4b6b0a",
+      "fingerprint": "e96f993f349a96b2b689c92997c756fdbe8ab2c1",
+      "host": "keybase.io",
+      "key_id": "97c756fdbe8ab2c1",
+      "kid": "01016bcf9fb9f73fc2840f6946042e18ef426b0e2cb83ad506a22efc8b35bfab4b6b0a",
+      "uid": "e2fe44430120dd928b4e4157e736b319",
+      "username": "yota002"
+    },
+    "service": {
+      "hostname": "yota.shitdevs.ru",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1746475259,
+  "expire_in": 157680000,
+  "prev": "3b4773da4955cfe6cdcdf294586b2c9562cc69391c284193889ccb0dd4a8fd18",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMInAnicrVJbSBVBGD6mnupQEhV2tYftKontzs5e5tiFniyiyCB6KDnNzM7oop49
+7q6nLI5FRtaDUmEUSdCFCCqph1CRDAujKwRplkbRxcKCQNNeKrBZKeihx+ZlmP//
+vm++/9I1NT0USevGNX3dr670pD263VQVKp0z+8deiThWtRTdK5Wx8YuVW8zzY2W2
+JUUlWZEVnVCOOEHcUDkFJpS5jqAuQ8AUk3EIdCIzQImpYkuTdQwA49QkqkY4JpCI
+LJbyJG7HS5ibcO24L2QZ0jlCKlchwkgngOgmogggZFBD07lFmIkJoIogljpewBDm
+CPZYvu2ImHjExu39A/+ffVeNyzHAGYRQlRUgWxYCJoEMKprBDFUnqoICoMfcOK5g
+Al3t+FiWgZTKk0QwaVMW9DUo5C9Avldq+xZLevlulaAnXMd3qFMusqW+n/CiAduv
+TgTwXYzEfgvFiB23RCsFI8lcz3biUlQRSOrbgbJiQB0aGtBQnsR2J2yXxewAoRm6
+KYsT/MOSQlIl0DBUC0OkaZQznVrU4gBBzRTToEjTAaU6UpESNE5BqinmQ4moHWKT
+W4opBaVVxh2hrQifuERoenZJHPtVLpNSdzp3ZITSIqFw5oRgx0KRydP+bB58PvHn
+JHDSGAvfLR5pWRkpbiBZcm3F3MO5LS/vkRWhvDPdsc/DiwY/rT2Ta2tf28697Yj0
+n2jAN0D3vooLzaNTir6vf3L1fPuE7bWNBWpZ1mb7wvyeu4+PJV4vbdELkwPZR24V
+JjbuNJedfZHeFy0eeXqzuvF686qun/V1RzuG3H1zF5/aUtOb8+3xh/u9D3h4rGbW
++eLapj2pZ6uXtNY17urKbcCX3xW8jDQNfKzMzlh37dLQgpVrtq3bP1w/I9cPK3JR
+av1ppWb6rIGKQ20HO3L6v8dG32wqTz1dmE/PjTwcbZ05rXbj1gOrsta2dww02BsK
+3oXRl8Llg+8zn8w7fhF3vn7/8cfDX39kSWQ=
+=55V2
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yota002
+
+==================================================================
